@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "gulp-prepare" : "gulp prepare-libs",
+    "gulp-styles": "gulp build-styles"
   },
   "author": "aziemianski",
   "devDependencies": {

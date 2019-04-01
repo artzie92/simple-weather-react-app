@@ -1,0 +1,6 @@
+
+npm install
+gulp prepare-libs
+gulp build-styles
+npm run start
+npm install gulp
